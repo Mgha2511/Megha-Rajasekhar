@@ -1,0 +1,43 @@
+Constant Flow Properties across all templates
+
+Fluid temperature - 25 degC
+Simulation time - 5 hours
+Timestep range - 0.1 to 1 second
+Gas Specific Gravity - 0.814
+Oil Specific Gravity - 0.867
+Water Specific Gravity - 1.02
+
+
+
+Template 1
+GOR constant at 50
+Watercut constant at 0.3
+Outlet pressure constant at 10 bara
+Flow rates varied from 100 to 600 sm3/h of oil
+
+Template 2
+GOR varied from 30 to 70 sm3/sm3
+Watercut constant at 0.3
+Outlet pressure constant at 10 bara
+Flow rates varied from 100 to 600 sm3/h of oil
+
+Template 3
+GOR varied from 30 to 70 sm3/sm3
+Watercut varied from 0.2 o 0.9
+Outlet pressure constant at 10 bara
+Flow rates varied from 100 to 600 sm3/h of oil
+
+Template 4
+GOR constant at 50
+Watercut constant at 0.3
+Outlet pressure varied from 5 to 35 bara
+Flow rates varied from 100 to 600 sm3/h of oil
+
+Template 5
+GOR varied from 30 to 70 sm3/sm3
+Watercut varied from 0.2 o 0.9
+Outlet pressure varied from 5 to 35 bara
+Flow rates varied from 100 to 600 sm3/h of oil
+
+
+A singluar case of Template 1 using a dummy value has been run to provide an example of the files that are generated when a case is successfully run. The .out file provides a summary of the simulation while the .ppl and .tpl files contain the simulation results. 

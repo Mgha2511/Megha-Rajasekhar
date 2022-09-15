@@ -1,0 +1,23 @@
+Guide to Python Scripts
+
+olgainpgen.py
+
+The python script can be used to create a number of OLGA .inp at one go, following a template .inp file. 
+In the template files, the parameters that is to be varied across files (e.g. flow rate) is replaced with a key word (e.g. ZFLOW). 
+The different desired values for this parameter are then copied into a list on the python file which replaces the keyword with the required value in each file.
+
+Fields to be modified/checked
+List of parameters (enter complete list with number of elements equal to the number of files). In the event that several parameters are changed, it must be ensured that the list lengths of all parameters are the same and equal to the number of files to be created.
+Location of template and desired location of generated input files must be updated. 
+Nomenclature of files can be modified. 
+
+matgen.py
+
+The python script can be used to parse the .tpl and .ppl OLGA files for specific results and consolidate the results into a .mat file which can be read by MATLAB. The script also helps divide the data-set into training and testing sets.
+The current script picks up the last value in time for the Pressures at the inlet and outlet positions of the line as well are the flow rates for oil, gas and water phase at the outlet of the line. 
+
+Fields to be modified/checked
+fapp - The total number of .ppl or .tpl files to be parsed for results. 
+filename - The nomenclature of the result files
+More lists can be defined to pick up indices of different variables.
+cutoff - The number of data points that belong to the training set and the rest are part of the testing set. 

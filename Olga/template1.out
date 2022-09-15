@@ -1,0 +1,89 @@
+
+
+
+     **************************************************************
+     *                                                            *
+     *                                                            *
+     *    XXXXXXX     XXX               XXXXXXX        XXXXXXX    *
+     *   XX     XX    XXX              XX     XX      XX     XX   *
+     * XXX       XXX  XXX            XXX       XXX  XXX       XXX *
+     * XXX       XXX  XXX            XXX            XXX       XXX *
+     * XXX       XXX  XXX            XXX   XXXXXXX  XXXXXXXXXXXXX *
+     * XXX       XXX  XXX            XXX       XXX  XXX       XXX *
+     * XXX       XXX  XXX            XXX       XXX  XXX       XXX *
+     *   XX     XX    XXX              XX     XX    XXX       XXX *
+     *    XXXXXXX     XXXXXXXXXXXXX     XXXXXXX     XXX       XXX *
+     *                                                            *
+     *                                                            *
+     **************************************************************
+
+
+
+     A  T R A N S I E N T,  O N E  D I M E N S I O N A L  M O D E L
+
+     F O R  T H R E E - P H A S E  F L O W  I N  P I P E L I N E S
+
+
+
+     DELIVERED BY    :   Schlumberger
+
+     VERSION         :   OLGA 2019.1.1.0
+
+     SUPPORT         :   OlgaSupport@slb.com
+
+     DATE            :   22-06-08
+
+     PROJECT         :   
+     TITLE           :   
+     AUTHOR          :   
+     CASE NAME       :   C:\Users\meghar\Desktop\NTNU\Thesis\olgainp\template1
+     INPUT FILE      :   template1.inp
+
+     FLOWMODEL       :   OLGA HD
+
+     CPU CORES USED  :   2
+     CORES AVAILABLE :   4
+     PHYSICAL CPUs   :   2
+
+     ARGUMENTS       :  ''
+
+
+
+*****************************************************
+      Results at Simulation Time: 0s
+*****************************************************
+
+
+
+Time step information:
+
+--*++*-- Time: 0.000e+00s. Step no: 0/180000. Current step-size: 1.000e-01s --*++*--
+
+
+---------------------------
+Variables for FlowPath: O4P-0_FLOWPATH
+---------------------------
+
+
+
+
+Variables in control volumes:
+
+
+Variables at control volume boundaries:
+
+
+Mass error information:
+
+
+
+
+
+     MASS SOURCE INFORMATION:
+     ************************
+     SOURCE    BRANCH    PIPE      SECT  GAS       OIL       WATER     ENTHALPY  TEMP
+     LABEL     LABEL     LABEL     NO    SOURCE    SOURCE    SOURCE    SOURCE    SOURCE
+                                         (KG/S)    (KG/S)    (KG/S)    (W)       (C)
+     --------- --------- --------- ----- --------- --------- --------- --------- ---------
+     SOUR-1    O4P-0_Flowpath Pipe-1    1     1.71      36.58     18.23     3.505e+06 25.00     
+INFO PROGRAM ABORTING DUE TO CONSOLE CLOSING EVENT.
